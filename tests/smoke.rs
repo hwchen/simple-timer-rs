@@ -6,4 +6,11 @@ fn timed_fn() {
 fn test_it_works() {
     simple_timer::timeit!("one", timed_fn());
     simple_timer::timeit!("two" ,timed_fn());
+
+    simple_timer::timeit!("two",
+        {
+            println!("great weather");
+            println!("i agree");
+        }
+    );
 }
