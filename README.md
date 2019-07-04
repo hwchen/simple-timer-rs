@@ -1,3 +1,4 @@
+# simple timer
 
 ## Usage
 In Cargo.toml:
@@ -27,3 +28,6 @@ fn main() -> {
     assert_eq!(forty_two, 42);
 }
 ```
+
+## License
+MIT

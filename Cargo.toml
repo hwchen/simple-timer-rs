@@ -3,6 +3,9 @@ name = "simple-timer"
 version = "0.1.0"
 authors = ["Walther Chen <walther.chen@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "simple timer macro"
+keywords = ["timer"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
