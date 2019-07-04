@@ -1,5 +1,13 @@
 
 ## Usage
+In Cargo.toml:
+```
+[dependencies]
+simple-timer: { git = 'https://github.com/hwchen/simple-timer-rs' }
+
+```
+
+In code:
 ```rust
 use simple_timer::timeit;
 
