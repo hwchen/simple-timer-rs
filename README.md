@@ -3,7 +3,7 @@
 In Cargo.toml:
 ```
 [dependencies]
-simple-timer: { git = 'https://github.com/hwchen/simple-timer-rs' }
+simple-timer = { git = 'https://github.com/hwchen/simple-timer-rs' }
 
 ```
 
