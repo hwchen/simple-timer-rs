@@ -13,4 +13,7 @@ fn test_it_works() {
             println!("i agree");
         }
     );
+
+    let forty_two = simple_timer::timeit!("three", 42);
+    assert_eq!(forty_two, 42);
 }

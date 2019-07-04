@@ -22,9 +22,10 @@ macro_rules! timeit {
         {
             use std::time::Instant;
             let start = Instant::now();
-            $x;
+            let res = $x;
             let end = start.elapsed();
             println!("time({}) : {}.{:03}", $t, end.as_secs(), end.subsec_millis());
+            res
         }
     };
 }

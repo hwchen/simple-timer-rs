@@ -23,5 +23,7 @@ fn main() -> {
             println!("i agree");
         }
     );
+    let forty_two = timeit!("three", 42);
+    assert_eq!(forty_two, 42);
 }
 ```
